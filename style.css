@@ -1,0 +1,93 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #B2C3C2;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #75a4b3;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #fafafa;
+}
+
+.timer,
+.stopwatch {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.timer span,
+.stopwatch span {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 0 7px;
+  color: #333;
+}
+
+.timer span:nth-child(2)::before,
+.timer span:nth-child(3)::before,
+.stopwatch span:nth-child(2)::before,
+.stopwatch span:nth-child(3)::before, 
+.stopwatch span:nth-child(4)::before{
+  content: ":";
+  font-size: 40px;
+  font-weight: bold;
+  color: #d83939;
+  margin-right: 10px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.button-container button {
+  margin: 0 5px;
+  padding: 30px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #333;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button-container button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.button-container button:hover:not(:disabled) {
+  background-color: #0a0606;
+}
+
+.label {
+  font-size: 16px;
+  color: #080505;
+}
+
+.time {
+  display: flex;
+  align-items: center;
+}
+
+.time span {
+  font-size: 40px;
+  font-weight: bold;
+  margin-right: 5px;
+  color: #f3f3f3;
+}
+
+.milliseconds {
+  font-size: 14px;
+  color: #080808;
+}
