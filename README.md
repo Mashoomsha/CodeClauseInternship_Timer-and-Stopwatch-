@@ -20,4 +20,4 @@ Welcome to the README for our Timer and Stopwatch project. This web application 
 
 - ## Live Project
 
-You can access the live version of this project by following this link:
+You can access the live version of this project by following this link:https://mashoomsha.github.io/CodeClauseInternship_Timer-and-Stopwatch-/
